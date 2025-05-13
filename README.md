@@ -1,31 +1,39 @@
 # COVID-19 Global Data Tracker
 
-This project analyzes global COVID-19 data with a focus on three countries: **Kenya**, **India**, and the **United States**. It covers key metrics such as case trends, death rates, and vaccination rollouts.
+A data analysis project focused on understanding the spread, impact, and vaccination efforts related to COVID-19 across Kenya, India, and the United States.
 
-## Key Features
+##  Project Objectives
 
-- Data sourced from [Our World in Data](https://ourworldindata.org/coronavirus).
-- Line and bar charts for total cases, deaths, and vaccinations.
-- Death rate calculations per country.
-- Pie charts for vaccination coverage.
-- Heatmaps and a choropleth map for visual insights.
-- Cleaned and filtered data using pandas in Jupyter Notebook.
+- Analyze COVID-19 trends in cases, deaths, and vaccinations.
+- Calculate and compare death rates and vaccination coverage across countries.
+- Visualize data through bar charts, line graphs, heatmaps, and a choropleth map.
+- Derive insights and patterns to reflect on the pandemic's global effects.
 
-##  Objectives Achieved
+## 🛠Tools and Libraries Used
 
-- Imported and explored global COVID-19 datasets.
-- Performed data cleaning and handling of missing values.
-- Conducted exploratory data analysis (EDA).
-- Visualized trends using seaborn, matplotlib, and plotly.
-- Generated insights with supporting visual evidence.
+- **Python 3**
+- **Jupyter Notebook** (via Anaconda)
+- **pandas** – for data cleaning and manipulation
+- **matplotlib** & **seaborn** – for data visualization
+- **plotly** – for interactive charts and choropleth map
+- **Our World in Data** – for the COVID-19 dataset
 
-##  Files Included
+## How to Run or View the Project
 
-- `covid19_analysis.ipynb` – Main Jupyter Notebook with code, visuals, and insights.
-- `death_rate_map.html` – Interactive choropleth map (optional).
-- `README.md` – Project summary and usage info.
+1. Open `covid19_analysis.ipynb` in Jupyter Notebook (Anaconda).
+2. Run the notebook cells to execute the analysis and generate visualizations.
+3. To view the interactive map:
+   - Open `death_rate_map.html` in your web browser (if included).
+   - Alternatively, run the plotly choropleth cell in the notebook.
 
-## Author
+##  Key Insights & Reflections
 
-Canaan Kiprop  Cheruiyot
-May 2025
+- **Vaccination Coverage**: India showed the highest percentage of vaccinated population in the latest available data. USA data was incomplete for visualization, but still had significant figures overall.
+- **Death Rate Trends**: Death rates varied significantly across countries, with India and the USA having higher absolute numbers but different patterns in growth rate.
+- **Data Challenges**: Inconsistent or missing data (especially for the USA's vaccination metrics) posed limitations during visualization.
+- **Visualization Tools**: Combining static and interactive charts provided more context to observed trends and allowed for better storytelling.
+
+---
+
+ Project by **Canaan Kiprop Cheruiyot** 
+ May 2025  
