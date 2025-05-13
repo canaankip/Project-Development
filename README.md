@@ -20,10 +20,10 @@ A data analysis project focused on understanding the spread, impact, and vaccina
 
 ## How to Run or View the Project
 
-1. Open `covid19_analysis.ipynb` in Jupyter Notebook (Anaconda).
+1. Open `COVID-19_Data_Analysis.ipynb` in Jupyter Notebook (Anaconda).
 2. Run the notebook cells to execute the analysis and generate visualizations.
 3. To view the interactive map:
-   - Open `death_rate_map.html` in your web browser (if included).
+   - Open `death_rate_map.html` in your web browser.
    - Alternatively, run the plotly choropleth cell in the notebook.
 
 ##  Key Insights & Reflections
